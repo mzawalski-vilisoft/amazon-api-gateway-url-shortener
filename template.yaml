@@ -207,7 +207,6 @@ Resources:
             preBuild:
               commands:
                 - cd client
-                - npm install --package-lock-only
                 - npm ci
             build:
               commands:
