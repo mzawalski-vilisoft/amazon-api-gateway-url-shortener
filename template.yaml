@@ -210,7 +210,7 @@ Resources:
                 - npm ci
             build:
               commands:
-                - set NODE_OPTIONS=--openssl-legacy-provider
+                - NODE_OPTIONS=--openssl-legacy-provider
                 - npm run build
           artifacts:
             baseDirectory: client/dist
