@@ -147,7 +147,7 @@ Resources:
         - email
         - openid
 
-  ##   CloudFront distribution
+  ##  CloudFront distribution
   CloudFrontDistro:
     Type: AWS::CloudFront::Distribution
     Properties: 
