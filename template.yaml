@@ -208,6 +208,7 @@ Resources:
             preBuild:
               commands:
                 - cd client
+                - NODE_OPTIONS=--openssl-legacy-provider
                 - npm ci
             build:
               commands:
