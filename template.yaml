@@ -177,6 +177,7 @@ Resources:
         Logging:
           Bucket: !GetAtt CloudFrontAccessLogsBucket.DomainName
         Enabled: true
+        PriceClass: "PriceClass_100"
         Origins:
           - CustomOriginConfig:
               OriginProtocolPolicy: https-only
